@@ -11,7 +11,6 @@
     background-image: url(./Images/vape.jpg);
     background-size: cover;
     background-position: 50% 70%;
-    
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -26,7 +25,8 @@
 }
 
 .navbar > h1 {
-    
+  color: whte;
+  text-shadow: 5px 5px rgb(10, 124, 230);
 }
 
 .navbar > p {
@@ -41,9 +41,10 @@
 
 .intro > p {
     margin-top: 35vh;
-    font-size: 1.7em;
+    font-size: 1.8em;
     font-weight: 800;
     color: white;
+    text-shadow: 5px 5px rgb(10, 124, 230);
 }
 
 
@@ -244,20 +245,26 @@
  /* form section and socials */
  .faq {
   color: white;
-  padding: 10px;
+  padding-bottom: 100px;
   padding-top: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
  }
 .contact {
   display: flex;
   background-color: rgb(32, 32, 58);
   flex-wrap: wrap;
   justify-content:space-around;
+  align-items: center;
 }
 
 form {
   height: 460px;
   padding: 10px;
+  margin-bottom: -20px;
+  padding-top: 40px;
 }
 
 form h2 {
@@ -276,7 +283,7 @@ input {
 textarea {
   padding: 7px;
   font-weight: 900;
-  width: 20em;
+  width: 25em;
   border-radius: 5px;
 }
 
@@ -419,8 +426,4 @@ img {
   text-align: center;
   background-color: rgb(32, 32, 58);
   padding: 10px;
-}
-
-body {
-
 }
