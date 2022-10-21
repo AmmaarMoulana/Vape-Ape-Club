@@ -68,6 +68,10 @@
     padding: 20px;
   }
   
+  .product h2 {
+    text-align: center;
+  }
+  
   .product-category {
     padding: 0 10vw;
     font-size: 30px;
@@ -272,18 +276,32 @@ form h2 {
   
 }
 
+input:hover, textarea:hover {
+  border: 2px solid white;
+}
+
 input {
   height: 25px;
-  width: 20vw;
+  width: 200px;
   padding: 7px;
   font-weight: 900;
   border-radius: 5px;
 }
 
+button { 
+  margin-top: 10px;
+  padding: 5px 15px;
+  background-color: rgb(19, 88, 190);
+  color: white;
+  font-weight: 900;
+  border-radius: 10px;
+  border-style: none;
+}
+
 textarea {
   padding: 7px;
   font-weight: 900;
-  width: 25em;
+  width: 350px;
   border-radius: 5px;
 }
 
