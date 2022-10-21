@@ -10,7 +10,8 @@
 .header {
     background-image: url(./Images/vape.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 50% 70%;
+    
     height: 100vh;
     width: 100%;
     text-align: center;
